@@ -1,0 +1,54 @@
+#root {
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #cfcfcf;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.header p {
+  font-size: 1.8rem;
+  color: #242424;
+  font-weight: bold;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main {
+  min-height: calc(100vh - 111px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.food-img {
+  width: 400px;
+  height: 300px;
+}
+
+.article {
+  word-wrap: break-word;
+}
