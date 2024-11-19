@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://doridori-samsam.github.io/csr-seo/sitemap.xml
