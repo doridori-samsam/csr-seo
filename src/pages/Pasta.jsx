@@ -1,7 +1,19 @@
+import {Helmet} from "react-helmet-async";
+
 function Pasta() {
   return (
+      <>
+          <Helmet>
+              <title>Pasta Page</title>
+              <meta name="description" content="파스타에 대한 설명입니다." />
+              <meta name="keywords" content="cook, pasta, seo, csr, 파스타, 파스타 유래, 파스타 역사" />
+              <meta property="og:title" content="Pasta" />
+              <meta property="og:description" content="SNS 공유용 파스타 페이지"/>
+              <meta property="og:image" content="https://www.pngplay.com/wp-content/uploads/4/Pasta-Transparent-Background.png"/>
+              <meta property={"og:url"} content={"http://localhost:5173/pasta"}/>
+          </Helmet>
     <section className="section">
-      <h1>Pasta</h1>
+    <h1>Pasta</h1>
       <img
         className="food-img"
         src="https://www.pngplay.com/wp-content/uploads/4/Pasta-Transparent-Background.png"
@@ -15,6 +27,7 @@ function Pasta() {
         만들어지고 있다.
       </article>
     </section>
+    </>
   );
 }
 

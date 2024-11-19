@@ -1,6 +1,18 @@
+import {Helmet} from "react-helmet-async";
+
 function Sushi() {
   return (
-    <section className="section">
+      <>
+          <Helmet>
+              <title>Sushi Page</title>
+              <meta name="description" content="초밥에 대한 설명입니다." />
+              <meta name="keywords" content="cook, sushi, seo, csr, 초밥, 초밥 유래, 초밥 역사" />
+              <meta property="og:title" content="Sushi" />
+              <meta property="og:description" content="SNS 공유용 초밥 페이지"/>
+              <meta property="og:image" content="https://static.vecteezy.com/system/resources/thumbnails/025/067/612/small/sushi-with-ai-generated-free-png.png"/>
+              <meta property={"og:url"} content={"http://localhost:5173/sushi"}/>
+          </Helmet>
+          <section className="section">
       <h1>Sushi</h1>
       <img
         className="food-img"
@@ -18,6 +30,7 @@ function Sushi() {
         이 밖에 김 등을 이용해 재료를 말아 넣거나 장식한 형태의 스시도 존재한다.
       </article>
     </section>
+          </>
   );
 }
 
