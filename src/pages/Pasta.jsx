@@ -10,7 +10,7 @@ function Pasta() {
               <meta property="og:title" content="Pasta" />
               <meta property="og:description" content="SNS 공유용 파스타 페이지"/>
               <meta property="og:image" content="https://www.pngplay.com/wp-content/uploads/4/Pasta-Transparent-Background.png"/>
-              <meta property={"og:url"} content={"http://localhost:5173/pasta"}/>
+              <meta property={"og:url"} content={"https://visionary-peony-fe1a65.netlify.app/pasta"}/>
           </Helmet>
     <section className="section">
     <h1>Pasta</h1>

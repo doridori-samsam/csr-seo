@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://doridori-samsam.github.io/csr-seo/sitemap.xml
+Sitemap: https://visionary-peony-fe1a65.netlify.app/sitemap.xml

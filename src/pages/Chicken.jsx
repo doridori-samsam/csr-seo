@@ -10,7 +10,7 @@ function Chicken() {
               <meta property="og:title" content="Chicken" />
               <meta property="og:description" content="SNS 공유용 치킨 페이지"/>
               <meta property="og:image" content="\https://i.namu.wiki/i/X3RhAIewJhdN1KysngMiy6HRmW874CWO84bsvm_JgUYZcBVU8-2COea0x1VU6lJoWyklyuwJaLn98H6UuNj0ZaPnV71MKUZSfZ2xsN-Din28ArRRKg7juT520jqSr5jaEFhL63RDxPu-tSdRodFEHA.webp"/>
-              <meta property={"og:url"} content={"http://localhost:5173/chicken"}/>
+              <meta property={"og:url"} content={"https://visionary-peony-fe1a65.netlify.app/chicken"}/>
           </Helmet>
     <section className="section">
       <h1>Chicken</h1>

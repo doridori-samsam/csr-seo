@@ -10,7 +10,7 @@ function Sushi() {
               <meta property="og:title" content="Sushi" />
               <meta property="og:description" content="SNS 공유용 초밥 페이지"/>
               <meta property="og:image" content="https://static.vecteezy.com/system/resources/thumbnails/025/067/612/small/sushi-with-ai-generated-free-png.png"/>
-              <meta property={"og:url"} content={"http://localhost:5173/sushi"}/>
+              <meta property={"og:url"} content={"https://visionary-peony-fe1a65.netlify.app/sushi"}/>
           </Helmet>
           <section className="section">
       <h1>Sushi</h1>
